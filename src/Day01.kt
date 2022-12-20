@@ -18,11 +18,11 @@ fun main() {
     fun part2(input: String): Int = getNElvesCalories(input, 3)
 
     // test if implementation meets criteria from the description, like:
-    val testInput = File("src/Day01_test.txt").readText()
+    val testInput = File("src/resources/Day01_test.txt").readText()
     check(part1(testInput) == 24000)
     check(part2(testInput) == 45000)
 
-    val input = File("src/Day01.txt").readText()
+    val input = File("src/resources/Day01.txt").readText()
     println(part1(input))
     println(part2(input))
 }
